@@ -1,0 +1,40 @@
+{
+  "menu_name": "坤哥烧烤（根据用户提供的价目照片整理，待店主复核）",
+  "currency": "CNY",
+  "source_note": "仅由用户在本对话提供的照片初录，遮挡行不定价；不同菜品按串/个/份的计价单位尚未确认。",
+  "price_unit_note": "这张照片没有逐项写清串/个/份；使用之前请向摊主核对计价单位及最新价格。",
+  "items": [
+    {"name":"烤甘蓝","price_cents":100,"aliases":["甘蓝","包菜"]},
+    {"name":"烤馒头片","price_cents":100,"aliases":["馒头片","烤馒头"]},
+    {"name":"去皮五花","price_cents":100,"aliases":["去皮五花肉"]},
+    {"name":"带皮五花肉","price_cents":150,"aliases":["带皮五花"]},
+    {"name":"壹号猪瘦肉","price_cents":150,"aliases":["猪瘦肉","一号猪瘦肉"]},
+    {"name":"鲜羊肉串","price_cents":200,"aliases":["羊肉","羊肉串"]},
+    {"name":"鲜牛肉串","price_cents":200,"aliases":["牛肉","牛肉串"]},
+    {"name":"猪脆骨","price_cents":250,"aliases":["脆骨"]},
+    {"name":"烤鸡皮","price_cents":200,"aliases":["鸡皮"]},
+    {"name":"牛板筋","price_cents":200,"aliases":["板筋"]},
+    {"name":"台式香肠","price_cents":200,"aliases":["香肠","烤肠"]},
+    {"name":"特色烤面筋","price_cents":200,"aliases":["面筋","烤面筋"]},
+    {"name":"夹心鱼豆腐","price_cents":150,"aliases":["鱼豆腐"]},
+    {"name":"碳烤大鱿鱼","price_cents":800,"aliases":["大鱿鱼","烤鱿鱼"]},
+    {"name":"烤鸡翅中","price_cents":800,"aliases":["鸡翅中","鸡翅"]},
+    {"name":"马步鱼","price_cents":500,"aliases":["烤马步鱼"]},
+    {"name":"淄博小饼","price_cents":300,"aliases":["小饼","淄博饼"]},
+    {"name":"蒜蓉辣酱","price_cents":300,"aliases":["蒜蓉酱"]},
+    {"name":"甜面酱","price_cents":300,"aliases":["甜酱"]},
+    {"name":"娃哈哈水","price_cents":200,"aliases":["娃哈哈","娃哈哈矿泉水"]}
+  ],
+  "ambiguous_aliases": {
+    "五花肉":["去皮五花","带皮五花肉"],
+    "猪肉":["去皮五花","带皮五花肉","壹号猪瘦肉"],
+    "啤酒":["照片底部酒类标价不清楚"],
+    "水":["娃哈哈水","其他水（未收录）"]
+  },
+  "unreadable_rows":[
+    "照片第一行菜名被遮挡，可能为1.5元",
+    "烤鸡皮下方一行菜名被遮挡，2元",
+    "马步鱼下方一行名称和价格均被遮挡",
+    "底部啤酒名称和价格需摊主确认"
+  ]
+}

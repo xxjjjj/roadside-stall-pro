@@ -1,0 +1,28 @@
+name: Python tests and Skill packages
+on:
+  push:
+  pull_request:
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Unit tests
+        run: python3 -m unittest discover -s tests -v
+      - name: Build portable Skill
+        run: python3 tools/build_release.py --format portable
+      - name: Build WorkBuddy Skill
+        run: python3 tools/build_release.py --format workbuddy
+      - name: Check ZIP integrity
+        run: |
+          python3 - <<'PY'
+          from zipfile import ZipFile
+          for package in ('dist/portable/skill.zip', 'dist/workbuddy/skill.zip'):
+              with ZipFile(package) as z:
+                  assert z.testzip() is None
+                  assert sum(n.endswith('/SKILL.md') for n in z.namelist()) == 1
+                  assert all('__pycache__' not in n and not n.endswith('.pyc') for n in z.namelist())
+          PY

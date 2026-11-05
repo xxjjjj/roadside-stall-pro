@@ -1,0 +1,18 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.DS_Store
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+roadside-stall-pro.backup-*/
+*.bak
+*.tmp
+*.log
+# Store user-generated business records and personal wiki outside source control.
+vendors/
+wiki/
+orders/
+user-data/

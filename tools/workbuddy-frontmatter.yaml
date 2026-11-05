@@ -1,0 +1,11 @@
+display_name: 路边摊 Pro
+display_name_en: Roadside Stall Pro
+description_zh: 个人吃喝 LLM Wiki、多摊位拼单算价。支持主动转发的微信聊天、店铺截图、菜单与菜品照片、朋友推荐、口味体验的识别与知识积累。
+description_en: A personal food-and-places LLM Wiki and multi-vendor group-order calculator. Use for shared food chats, screenshots, menus, recommendations and taste notes.
+examples_zh:
+- 这个微信群里大家都点了什么？帮我整理并核价
+- 我拍了这家店的菜单，先帮我收藏
+- 找找我之前吃过、适合我口味的店
+- 把这张店铺截图收入我的吃喝 Wiki
+version: 2.2.2
+author: xxjjjj

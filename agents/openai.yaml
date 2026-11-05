@@ -1,0 +1,12 @@
+interface:
+  display_name: 路边摊 Pro
+  short_description: 从淄博坤哥烧烤的惊喜价目表出发，收藏有烟火气的小店、口味和故事，也能拼单算价
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

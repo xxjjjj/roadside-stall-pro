@@ -84,8 +84,8 @@
 
 ## 安装包下载
 
-- **WorkBuddy**：[工作伙伴专用 ZIP](dist/workbuddy/skill.zip)（顶层展示字段扁平化，修复注册失败）。
-- **Codex / Claude Code / OpenClaw / Hermes Agent**：[通用 ZIP](dist/portable/skill.zip)（标准 Agent Skills frontmatter）。
+- **WorkBuddy**：[工作伙伴专用 ZIP](https://raw.githubusercontent.com/xxjjjj/roadside-stall-pro/main/dist/workbuddy/skill.zip)（顶层展示字段扁平化，修复注册失败）。
+- **Codex / Claude Code / OpenClaw / Hermes Agent**：[通用 ZIP](https://raw.githubusercontent.com/xxjjjj/roadside-stall-pro/main/dist/portable/skill.zip)（标准 Agent Skills frontmatter）。
 - **源码**：本仓库根目录就是通用 Skill；豆包需要依据其具体接入流程确认支持。
 
 ## 适用环境与安装

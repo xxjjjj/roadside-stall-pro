@@ -54,8 +54,8 @@ This repository provides a single core implementation with platform-specific fro
 
 | Platform | Package or source |
 | --- | --- |
-| WorkBuddy | `dist/workbuddy/skill.zip` — flat WorkBuddy YAML metadata |
-| Codex, Claude Code, OpenClaw, Hermes Agent | `dist/portable/skill.zip` or repository root — standard Agent Skills metadata |
+| WorkBuddy | [WorkBuddy ZIP](https://raw.githubusercontent.com/xxjjjj/roadside-stall-pro/main/dist/workbuddy/skill.zip) — flat WorkBuddy YAML metadata |
+| Codex, Claude Code, OpenClaw, Hermes Agent | [Portable ZIP](https://raw.githubusercontent.com/xxjjjj/roadside-stall-pro/main/dist/portable/skill.zip) or repository root — standard Agent Skills metadata |
 | Doubao | Depends on its platform submission and review process; direct import is not guaranteed |
 
 See the [Chinese platform-specific installation guide](references/platform-install.md) for details. The included Python scripts use the standard library; image understanding comes from the host agent, not from a bundled OCR engine.
